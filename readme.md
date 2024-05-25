@@ -2,6 +2,15 @@
 
 This is an Online Quiz Application with a frontend built using HTML, CSS, and JavaScript, and a backend developed using Java SDK 22. The app utilizes MySQL for database management, with the MySQL Connector and JSON libraries for database connectivity and data handling.
 
+![Home Screenshot](/frontend/images/screenshots/home.png)
+*Home page*
+
+![Quiz Screenshot](/frontend/images/screenshots/quiz.png)
+*Quiz page*
+
+![Result Screenshot](/frontend/images/screenshots/result.png)
+*Result page*
+
 ## Features
 
 - **Topic Selection:** Users can choose from a list of quiz topics.
