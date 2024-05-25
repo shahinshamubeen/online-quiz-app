@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 1em;
+}
+
+form {
+    background: white;
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 0.5em 0 0.2em;
+}
+
+form input {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 0.5em;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #45a049;
+}
+
+
+
+.topic {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+h2 {
+    margin-top: 0;
+}
+.difficulty-btn {
+    margin-right: 5px;
+    margin-bottom: 5px;
+    cursor: pointer; /* Make difficulty levels clickable */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+}
+.difficulty-btn:hover {
+    background-color: #e0e0e0;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz App</title>
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <!-- Heading section displaying the topic and difficulty -->
+            <div class="heading">
+                <h1 id="topic" class="topic"></h1>
+                <h2 id="difficulty" class="difficulty"></h2>
+            </div>
+
+            <!-- Result box displayed after finishing the quiz -->
+            <div id="result-box" class="result-box">
+                <h2 class="result">Result</h2>
+                <h3 id="attempted" class="result">Attempted questions</h3>
+                <h3 id="result" class="result">Total score</h3>
+            </div>
+
+            <!-- Question container displaying the current question and options -->
+            <div id="question-container">
+                <h3 id="question"></h3>
+                <div id="options"></div>
+            </div>
+
+            <!-- Timer display -->
+            <div id="timer">Time left: <span id="time">30</span>s</div>
+
+            <!-- Feedback section for indicating correct or incorrect answers -->
+            <div id="feedback" class="feedback">Feedback</div>
+
+            <!-- Navigation buttons for moving between questions -->
+            <div id="navigation">
+                <button id="prev-btn" onclick="prevQuestion()">Prev</button>
+                <span id="question-number"></span>
+                <button id="next-btn" onclick="nextQuestion()">Next</button>
+            </div>
+
+            <!-- Container for displaying question numbers for quick navigation -->
+            <div id="question-numbers"></div>
+
+            <!-- Finish container with buttons for quitting, finishing, or retrying the quiz -->
+            <div id="finish-container" class="finish-container">
+                <button id="quit">Home</button>
+                <button id="finish">Finish</button>
+                <button id="try-again">Try again</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- External JavaScript files -->
+    <script src="js/app.js"></script>
+    <script src="js/quiz.js"></script>
+</body>
+</html>
